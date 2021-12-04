@@ -74,7 +74,7 @@ while True:
         exponente_potencia = primer_numero ** segundo_numero
         print("El resultado es: ", exponente_potencia)
 
-    repeat = input("Deseas repetir escribe (FIN) para salir: ").upper()
+    repeat = input("¿Deseas repetir? escribe (FIN) para salir: ").upper()
     if repeat == "FIN":
         break
     else:
