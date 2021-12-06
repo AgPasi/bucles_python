@@ -47,7 +47,8 @@ print("Cantidad de numeros: ", cantidad_numeros)
 
 # Al terminar el bucle calcular el promedio como:
 # promedio = sumatoria / cantidad_numeros
-promedio = sumatoria / cantidad_numeros
+z = 0 if sumatoria == 0 else (sumatoria / cantidad_numeros) 
+
 
 # Imprimir resultado en pantalla
-print("Promedio: ", promedio)
+print("Promedio: ", z)
