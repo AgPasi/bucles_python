@@ -46,7 +46,6 @@ print("Resultado de la suma: ", sumatoria)
 print("Cantidad de numeros: ", cantidad_numeros)
 
 # Al terminar el bucle calcular el promedio como:
-# promedio = sumatoria / cantidad_numeros
 z = 0 if sumatoria == 0 else (sumatoria / cantidad_numeros) 
 
 
